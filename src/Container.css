@@ -1,0 +1,30 @@
+.container {
+    position: absolute;
+    left: 30%;
+    width: 900px;
+    height: 900px;
+    z-index: 0;
+   
+    background-image: url('./imgs/pokebola.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    
+}
+
+.container .pokedex-name {
+    color: rgb(11, 15, 11);
+    width: 200px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    background-color: rgba(138, 103, 233, 0.63);
+    
+    text-align: center;
+
+}
+
+
+

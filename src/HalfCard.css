@@ -1,0 +1,80 @@
+.halfcard {
+    width: 500px;
+    height: 379px;
+    z-index: 1;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    background-color: #fff;
+    top: -321px;
+}
+
+.halfcard h3 {
+    position: fixed;
+    top: 70px;
+    margin-left: 20px;
+}
+
+.halfcard h5 {
+    position: fixed;
+    top: 100px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #000;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: rgb(238, 228, 215);
+    
+}
+
+.yellow{
+    background-color: rgb(221, 221, 14);
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.purple {
+    background-color: rgb(49, 5, 90);
+    border-radius: 15px 15px 0 0;
+}
+
+
+.green {
+    background-color: rgb(4, 95, 4);
+    border-radius: 15px 15px 0 0;
+}
+
+.blue {
+    background-color: rgb(63, 132, 163);
+    border-radius: 15px 15px 0 0;
+}
+
+.halfcard img {
+    position: relative;
+    top: -66%;
+    left: 17%;
+    width: 210px;
+    height: 210px;
+    border-radius: 5px;
+}
+
+
+
+
+.halfcard button {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 200px;
+    margin-left: 600px;
+    border: none;
+    padding: 20px;
+    border-radius: 50px 0 0 50px;
+    background-color: rgb(122, 122, 122);
+    color: #fff;
+}
+
+.halfcard button:hover {
+    background-color: rgb(219, 52, 108);
+    color: #fff;
+    margin-left: 590px;
+}
